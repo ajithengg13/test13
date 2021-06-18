@@ -11,4 +11,6 @@ tenant_id       = "ff4dcff7-11b2-42ca-ad06-19f7823eee27"
 resource "azurerm_resource_group" "demo" {
     name = "testaj1"
     location = "westus"
+    tags = {
+    "dept"        = "HR"
 }
